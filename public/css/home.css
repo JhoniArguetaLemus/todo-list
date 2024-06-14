@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color:#e7eaf6;
+
+}
+
+
+nav{
+    background-color: #113f67;
+    
+}
+
+ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: center;
+}
+ 
+ul li{
+    padding: 1rem;
+    margin: 2px;
+    font-size: 1.5rem;
+}
+
+
+
+
+ul li:hover{
+    background-color:#38598b;
+    
+}
+
+.task{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    border: 2px solid #8dc6ff;
+     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.new-task{
+    
+  
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 3px solid #8dc6ff;
+
+}
+
+.new-task button{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+  
+    display: block;
+   
+}
+
+.new-task form{
+    width: 50%;
+}
+input{
+    width: 770px;
+    border-radius: 15px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .new-task form{
+        width: 40%;
+    }
+
+    form #descripcion, input {
+        width: 300px;
+    }
+   .titulo-nueva-tarea{
+    font-size: 1rem;
+    border: 1px solid red;
+    width: 100px;
+    text-align: center;
+   }
+    
+}
+
